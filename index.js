@@ -3,7 +3,6 @@ function theBeatlesPlay(arrayMusic,arrayInstrum){
   let emptyArray=[]
   for(let i=0;i<=arrayMusic.length-1;i++){
     let another=arrayMusic[i]+" plays "+arrayInstrum[i];
-    arrayInstrum[i]++;
     emptyArray.push(another);
   }
   return emptyArray;
